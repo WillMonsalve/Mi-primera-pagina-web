@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Wilton Monsalve</title>
+    <style>
+      /* Estilos generales */
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+      }
+
+      /* Estilos para la imagen en la cabecera */
+      header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 3rem 0;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+
+      /* Estilos para enlaces */
+      a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+
+      a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+      }
+
+      /* Estilos para secciones específicas */
+      #sobre-mi {
+        background-color: #9ee99e;
+      }
+
+      #sobre-mi p {
+        font-size: 1.1rem;
+      }
+
+      #portafolio {
+        background-color: rgb(138, 235, 202);
+      }
+
+      #portafolio .proyecto {
+        margin-bottom: 3rem;
+      }
+
+      #portafolio .proyecto img {
+        max-width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      #experiencia {
+        background-color: rgb(238, 245, 144);
+      }
+
+      #experiencia .trabajo {
+        margin-bottom: 2rem;
+      }
+
+      #experiencia h3 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+      }
+
+      #habilidades {
+        background-color: #82bbf7;
+      }
+
+      #habilidades ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      #habilidades li {
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-weight: bold;
+      }
+
+      #contacto {
+        background-color: rgb(212, 194, 228);
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+      }
+
+      /* Media queries para diseño responsive */
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        section {
+          padding: 2rem 0;
+        }
+
+        #habilidades ul {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #habilidades li {
+          margin: 0.3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./Img/foto.jpg" alt="Imagen de cabecera" />
+      <h1>Wilton Monsalve</h1>
+      <p>Programador Web</p>
+    </header>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un apasionado programador web con experiencia en HTML, CSS,
+        JavaScript, React y .NET. Busco oportunidades emocionantes en
+        programación.
+      </p>
+    </section>
+
+    <section id="portafolio">
+      <h2>Portafolio</h2>
+      <div class="proyecto"></div>
+      <!-- Aquí puedes incluir tus proyectos con enlaces, imágenes y descripciones -->
+    </section>
+
+    <section id="experiencia">
+      <h3>Experiencia Laboral</h3>
+      <!-- Puedes enumerar tus trabajos anteriores con detalles -->
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+          pariatur excepturi harum natus optio. Modi molestias magni quasi
+          distinctio dolorem, quam laborum! Sunt, ipsum cumque. Voluptatibus
+          suscipit nostrum natus vero!
+        </li>
+      </ul>
+      <!-- Enumera tus habilidades clave -->
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Email: tu@email.com</p>
+      <p>LinkedIn: [Enlace a tu perfil de LinkedIn]</p>
+    </section>
+
+    <footer>
+      <p>Derechos de autor © 2023 | Wilton Monsalve</p>
+    </footer>
+  </body>
+</html>
